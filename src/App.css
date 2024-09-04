@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   font-family: 'Poppins',sans-serif;
+ }
+
+ /* NAVBAR SECTION */
+ .navBar nav{
+   background-color: rgb(4, 4, 41);
+   padding: 1rem;
+ }
+
+ .navBar nav h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+ }
+
+
+ /* FILTER SECTION */
+ .filter{
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 10px;
+  padding: 1rem;
+ }
+
+ .filterButton{
+  padding: 10px 20px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b4161b21;
+ }
+
+ /* CARDS SECTION */
+ .container1{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   max-width: 1300px;
+   margin: 0 auto;
+   align-items: center;
+ }
+ 
+
+
+/* SPINNER SECTION */
+
+.spinnerBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border: 11.2px #474bff double;
+   border-left-style: solid;
+   border-radius: 50%;
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+}
